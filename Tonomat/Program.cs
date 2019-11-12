@@ -29,41 +29,27 @@ namespace Tonomat
                         coin = Console.ReadKey().KeyChar;
 
                         if (coin == 'N')
-                        {
                             amount += 5;
-                        }
                         else if (coin == 'D')
-                        {
                             amount += 10;
-                        }
                         else
                             amount += 25;
                     }
 
                     if (amount == 20)
-                    {
                         Console.WriteLine("\nTake the merchandise.\n");
-                    }
-
+                    
                     if (amount == 25)
-                    {
                         Console.WriteLine("\nTake the merchandise. Don't forget about the remainder. (A Nickel)\n");
-                    }
 
                     if (amount == 30)
-                    {
                         Console.WriteLine("\nTake the merchandise. Don't forget about the remainder. (A Dime)\n");
-                    }
 
                     if (amount == 35)
-                    {
                         Console.WriteLine("\nTake the merchandise. Don't forget about the remainder. (A Dime + A Nickel)\n");
-                    }
 
                     if (amount == 40)
-                    {
                         Console.WriteLine("\nTake the merchandise. Don't forget about the remainder. (2 Dimes)\n");
-                    }
                 }
                 else
                 {
